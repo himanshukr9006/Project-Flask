@@ -4,8 +4,9 @@ app = Flask(__name__)
 
 @app.route('/api')
 def api():
-    
-    data = ["Apple", "Banana", "Mango", "Litchi"]
+
+    data = ["Apple", "Banana", "Mango", "papaya", "palm", "strawberry"]
+
 
     return jsonify(data)
 
